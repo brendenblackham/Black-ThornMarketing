@@ -85,7 +85,7 @@ p {
 }
 .accent2{
   background-color: var(--accent2-color);
-  text-color: black;
+  color: white;
 }
 
 p.colored {
