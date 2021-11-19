@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
 body {
-  background-color: white;
+  background-color: #D0D6B5;
   font-family: "Open Sans", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
@@ -14,6 +14,41 @@ body {
 h1 {
   font-family: "Merriweather", serif;
   font-size: 32px;
+  
+}
+.navigation-box {
+  font-family: "Poppins", sans-serif, serif;
+  color: #7C4D30;
+}
+p {
+  font-family: "Open Sans", sans-serif ;
+  width: auto;
+  background-color: white;
+  margin: 10px auto;
+  padding: 5px 5px 5px 5px;
+  line-height: 1.75em;
+  font-size: 19px;
+  border: 1px solid black;
+}
+header {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 110px auto;
+}
+
+.logo-box {
+}
+
+nav ul {
+  list-style: none; /* removes the bullets! */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  align-items: center;
+  margin: 0;
+}
+
+.banner-box {
+  width: auto;
 }
 
 
