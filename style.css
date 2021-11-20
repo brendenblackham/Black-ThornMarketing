@@ -62,11 +62,7 @@ a:link {
   width: 800px;
   margin: 0 auto;
   background-color: #D0D6B5;
-}
-#content-contact {
-  width: 800px;
-  margin: 0 auto;
-  background-color: #D0D6B5;
+  align-content: center;
 }
 
 .home-grid {
