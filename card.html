@@ -23,35 +23,37 @@
         font-color: #ccc;
         overflow: hidden;
       }
-      .button{
+      .button-l{
+       float: left;
         width: 30px;
-        padding: 0 0 0 0;
-        border-radius: 3px;
+        border-radius: 3px 0px 0px 3px;
         padding: 5px 10px;
         border-style: solid;
         margin: 0px;
        font-size: 12px;
+        border-color: #ccc;
+        text-color: #ccc;
+          border: 2px solid #ccc;
+        
         
       }
-      /* unvisited link */
-      a:link {
-        color: white;
+      .button-r{
+        float: left;
+        width: 30px;
+        border-radius: 0px 3px 3px 0px;
+        padding: 5px 10px;
+        border-style: solid;
+       font-size: 12px;
+        border-color: #ccc;
+        text-color: #ccc;
+         border:2px solid #ccc;
       }
-
-      /* visited link */
-      a:visited {
-        color: white;
-      }
-
-      /* mouse over link */
       a:hover {
         color: #ccc;
       }
-
-      /* selected link */
-      a:active {
-        color: white;
-      }
+    
+        
+     
     </style>
     <title>Black-Thorn Marketing</title>
     <meta charset="utf-8" />
@@ -92,8 +94,8 @@
               This is a wider card with some text that was given to us on the
               assignment for week 12
             </p>
-            <a href="index.html" class="button" type="view">View</a>
-            <a href="index.html" class="button" type="view">Edit</a>
+            <a href="card.html" class="button-l" type="view">View</a>
+            <a href="card.html" class="button-r" type="edit">Edit</a>
           </article>
         </section>
       </header>
