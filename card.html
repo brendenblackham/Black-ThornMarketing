@@ -5,7 +5,8 @@
       img {
         max-width: 100%;
         background-color: white;
-        border-radius: 0px 3px;
+        border-radius: 0px 0px 3px 3px;
+        
       }
       .text {
         background-color: white;
@@ -14,18 +15,23 @@
 
       .card {
         width: 320px;
+        height: 450px;
         box-shadow: 1px 1px 4px 1px #888;
         border-radius: 3px 3px 3px 3px;
         background-color: white;
         font: 1.2em sans-serif;
         font-color: #ccc;
+        overflow: hidden;
       }
-      a {
-        width: 60px;
-        padding: 0;
-        background-color: #white;
+      .button{
+        width: 30px;
+        padding: 0 0 0 0;
         border-radius: 3px;
-        padding: 15px 30px;
+        padding: 5px 10px;
+        border-style: solid;
+        margin: 0px;
+       font-size: 12px;
+        
       }
       /* unvisited link */
       a:link {
@@ -39,7 +45,7 @@
 
       /* mouse over link */
       a:hover {
-        color: white;
+        color: #ccc;
       }
 
       /* selected link */
