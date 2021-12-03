@@ -3,22 +3,49 @@
   <head>
     <style>
       img {
-  max-width: 100%;
-}
-      
+        max-width: 100%;
+        background-color: white;
+        border-radius: 0px 3px;
+      }
+      .text {
+        background-color: white;
+        border-color: white;
+      }
+
       .card {
-         width: 320px;
-  box-shadow: 1px 1px 4px 1px #888;
-  border-radius: 0px 0px 0px 3px;
-  background-color: white; 
-       font: 1.2em sans-serif;
+        width: 320px;
+        box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 3px 3px 3px 3px;
+        background-color: white;
+        font: 1.2em sans-serif;
+        font-color: #ccc;
       }
-      button {
-         width: 60px; 
+      a {
+        width: 60px;
         padding: 0;
+        background-color: #white;
+        border-radius: 3px;
+        padding: 15px 30px;
       }
-      
-      
+      /* unvisited link */
+      a:link {
+        color: white;
+      }
+
+      /* visited link */
+      a:visited {
+        color: white;
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: white;
+      }
+
+      /* selected link */
+      a:active {
+        color: white;
+      }
     </style>
     <title>Black-Thorn Marketing</title>
     <meta charset="utf-8" />
@@ -30,86 +57,71 @@
       <header>
         <nav class="navigation-box">
           <ul>
-            <li><a href="index.html"><img alt="Black-Thorn.png" src="https://cdn.glitch.me/abd3bd52-c355-42b1-ade4-704e7a830fd2%2FBlack-Thorn_Marketing.png?v=1637385615267" width="150"></a></li>
+            <li>
+              <a href="index.html"
+                ><img
+                  alt="Black-Thorn.png"
+                  src="https://cdn.glitch.me/abd3bd52-c355-42b1-ade4-704e7a830fd2%2FBlack-Thorn_Marketing.png?v=1637385615267"
+                  width="150"
+              /></a>
+            </li>
             <li><a href="index.html">Home</a></li>
             <li><a href="form.html">Get a Quote</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
+        <section class="banner-box">
+          <video width="800" autoplay muted>
+            <source
+              src="https://cdn.glitch.me/abd3bd52-c355-42b1-ade4-704e7a830fd2%2F10%25%20off%20(1).mp4?v=1637385948820"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </section>
         <section>
-        <article class="card">
-          
-          <img src="https://picsum.photos/320/240">
-          <p>
-            This is a wider card with some text that was given to us on the assignment for week 12
-          </p>
-          <button class ="button" type="view">View</button>
-           <button class ="button" type="edit">Edit</button>
+          <article class="card">
+            <img src="https://picsum.photos/320/240" />
+            <p class="text">
+              This is a wider card with some text that was given to us on the
+              assignment for week 12
+            </p>
+            <a href="index.html" class="button" type="view">View</a>
+            <a href="index.html" class="button" type="view">Edit</a>
           </article>
         </section>
-        
-        
-        
-        
       </header>
-      <section class="banner-box">
-     <video width="800" autoplay muted>
-  <source src="https://cdn.glitch.me/abd3bd52-c355-42b1-ade4-704e7a830fd2%2F10%25%20off%20(1).mp4?v=1637385948820" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-      </section>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+
       <footer>
-  
-        
         <p>&copy; 20XX Black-Thorn Marketing - Brenden Blackham - Section 13</p>
-        
+
         <div class="social">
           <a href="https://www.facebook.com/" target="_blank">
             <img
               src="https://cdn.glitch.me/c63177c6-229a-4123-80ac-bf020bf22577%2F077b5c7f-3f27-402a-9866-c3efabcac788.image.png?v=1633635929037"
-              alt="Facebook" height="55"
+              alt="Facebook"
+              height="55"
           /></a>
 
           <a href="https://www.instagram.com/" target="_blank">
             <img
               src="https://cdn.glitch.me/c63177c6-229a-4123-80ac-bf020bf22577%2F29812f86-f9a2-471e-bc93-673b0699bc2e.image.png?v=1633635951640"
-              alt="instagram" height="55"
+              alt="instagram"
+              height="55"
           /></a>
 
           <a href="https://www.youtube.com/" target="_blank">
             <img
               src="https://cdn.glitch.me/c63177c6-229a-4123-80ac-bf020bf22577%2Fa1862198-f784-466e-9443-33e49aa74315.image.png?v=1633635972309"
-              alt="youtube" height="55"
-                 /></a>
-           <a href="site-plan" target="_blank">
-          <img
+              alt="youtube"
+              height="55"
+          /></a>
+          <a href="site-plan" target="_blank">
+            <img
               src="https://cdn.glitch.me/abd3bd52-c355-42b1-ade4-704e7a830fd2%2FSite%20Plan.png?v=1638480632223"
-              alt="SitePlan" height="55"
-               /></a>
+              alt="SitePlan"
+              height="55"
+          /></a>
         </div>
       </footer>
     </div>
