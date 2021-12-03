@@ -35,6 +35,9 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+      input[type=checkbox]: {
+        font-style: sans-sarif;
+      }
     
     
     
@@ -79,14 +82,18 @@ Your browser does not support the video tag.
     <label for="email">Email</label>
     <input type="text" id="email" name="email" placeholder="Email">
 
- <title></title>
+<label><strong>Select all Marketing Needs for your Business</strong></label><br>
     
-    <input type="checkbox" id="Social Media" name="social media" value="Social Media">
-<label for="social media"> I have a bike</label><br>
-<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-<label for="vehicle2"> I have a car</label><br>
-<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-<label for="vehicle3"> I have a boat</label><br>
+    <input type="checkbox" id="Social Media" name="socialmedia" value="Social Media">
+<label for="m1">Social Media</label><br>
+<input type="checkbox" id="m2" name="m2" value="Car">
+<label for="m2"> Content Creation</label><br>
+<input type="checkbox" id="m3" name="m3" value="Boat">
+<label for="m4">Traditional Marketing</label><br>
+    <input type="checkbox" id="m4" name="vehicle3" value="Boat">
+<label for="m5"></label><br>
+    <input type="checkbox" id="m5" name="m5" value="Boat">
+<label for="vehicle3">Traditional Marketing</label><br>
     
        <label for="country">Country</label>
     
@@ -96,8 +103,8 @@ Your browser does not support the video tag.
       <option value="usa">USA</option>
     </select>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <label for="subject">Give us some aditional Notes</label>
+    <textarea id="subject" name="subject" placeholder="Aditional Notes..." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
 
