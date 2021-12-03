@@ -6,7 +6,6 @@
         max-width: 100%;
         background-color: white;
         border-radius: 0px 0px 3px 3px;
-        
       }
       .text {
         background-color: white;
@@ -20,40 +19,40 @@
         border-radius: 3px 3px 3px 3px;
         background-color: white;
         font: 1.2em sans-serif;
-        font-color: #ccc;
+        font-color: black;
         overflow: hidden;
       }
-      .button-l{
-       float: left;
+      a, .button-l, .button-r {
+        color: #ccc;
+      }
+      .button-l {
+        float: left;
         width: 30px;
         border-radius: 3px 0px 0px 3px;
-        padding: 5px 10px;
+        padding: 5px;
         border-style: solid;
         margin: 0px;
-       font-size: 12px;
+        font-size: 12px;
         border-color: #ccc;
-        text-color: #ccc;
-          border: 2px solid #ccc;
-        
-        
+        border: 1px solid #ccc;
+        transition-duration: 0.4s;
       }
-      .button-r{
+
+      .button-r {
         float: left;
         width: 30px;
         border-radius: 0px 3px 3px 0px;
-        padding: 5px 10px;
+        padding: 5px;
         border-style: solid;
-       font-size: 12px;
+        font-size: 12px;
         border-color: #ccc;
-        text-color: #ccc;
-         border:2px solid #ccc;
+        border: 1px solid #ccc;
+        transition-duration: 0.4s;
       }
-      a:hover {
-        color: #ccc;
+      minutes {
+         color: #ccc;
+        border: none;
       }
-    
-        
-     
     </style>
     <title>Black-Thorn Marketing</title>
     <meta charset="utf-8" />
@@ -96,6 +95,11 @@
             </p>
             <a href="card.html" class="button-l" type="view">View</a>
             <a href="card.html" class="button-r" type="edit">Edit</a>
+            <section>
+              <p class="minutes">
+                9 Mins
+              </p>
+            </section>
           </article>
         </section>
       </header>
